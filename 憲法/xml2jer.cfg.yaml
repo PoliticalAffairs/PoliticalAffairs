@@ -1,0 +1,44 @@
+- for:
+    - "JapaneseLaw"
+- era:
+    type: Enum
+    desc: "元号"
+    item_ja:
+      - "明治"
+      - "大正"
+      - "昭和"
+      - "平成"
+      - "令和"
+    use: req
+  year:
+    type: Int
+    min: 0
+    use: req
+  num:
+    type: Int
+    min: 0
+    use: req
+  promulgate:
+    type: DateTime
+    desc: "公布日"
+    use: req
+  lawType:
+    type: Enum
+    desc: "法令種別"
+    item_ja:
+      - "憲法"
+      - "法律"
+      - "政令"
+      - "勅令"
+      - "省令"
+      - "規則"
+      - "告示"
+  lang:
+    type: enum
+    desc: "言語"
+    item_ja:
+      - "日本語"
+      - "英語"
+    item_en:
+      - ja
+      - en

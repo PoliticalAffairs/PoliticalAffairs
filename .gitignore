@@ -1,0 +1,10 @@
+# pre draft
+*.pd.*
+
+# workingdir
+workingdir/
+
+# temp: party, GovRenew
+NewParty/
+NewNation/
+GovRenew/
