@@ -5,6 +5,9 @@
 workingdir/
 
 # temp: party, GovRenew
+!NewParty/CPAD/.gitignore
 NewParty/
+!NewNation/MuschioMF/.gitignore
 NewNation/
+!GovRenew/.gitignore
 GovRenew/
